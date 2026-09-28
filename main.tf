@@ -1,7 +1,7 @@
 module "dev-infra" {
     source = "./infra-app"
     env = "DEV"
-    buncket_name = "infra-app-bucket"
+    bucket_name = "infra-app-bucket"
     ec2_ami_id = "ami-0b6d9d3d33ba97d99"
     aws_instance_count = 1
     aws_instance_type = "t2.micro"
@@ -12,7 +12,7 @@ module "dev-infra" {
 module "prod-infra" {
     source = "./infra-app"
     env = "PROD"
-    buncket_name = "infra-app-bucket"
+    bucket_name = "infra-app-bucket"
     ec2_ami_id = "ami-0b6d9d3d33ba97d99"
     aws_instance_count = 1
     aws_instance_type = "t2.medium"
@@ -23,7 +23,7 @@ module "prod-infra" {
 module "uat-infra" {
     source = "./infra-app"
     env = "UAT"
-    buncket_name = "infra-app-bucket"
+    bucket_name = "infra-app-bucket"
     ec2_ami_id = "ami-0b6d9d3d33ba97d99"
     aws_instance_count = 1
     aws_instance_type = "t2.small"

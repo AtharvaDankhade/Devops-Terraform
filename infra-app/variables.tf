@@ -3,7 +3,7 @@ variable "env" {
   description = "The environment for the infrastructure (e.g., Dev, Staging, Prod)."
 }
 
-variable "buncket_name" {
+variable "bucket_name" {
   type = string
   description = "The name of the S3 bucket."
 }
