@@ -811,29 +811,6 @@ flowchart LR
 
 ---
 
-# 🚧 Future Improvements
-
-This project can be extended with:
-
-* [ ] 🌐 Custom VPC architecture
-* [ ] 🔐 Private and public subnets
-* [ ] ⚖️ Application Load Balancer
-* [ ] 📦 Auto Scaling Groups
-* [ ] 🔒 Remote Terraform state
-* [ ] 🔐 State locking
-* [ ] 👤 IAM roles
-* [ ] 📊 CloudWatch monitoring
-* [ ] 🔄 GitHub Actions CI/CD
-* [ ] 🌍 Multi-region deployment
-* [ ] 🐳 Docker deployment
-* [ ] ☸️ EKS integration
-* [ ] 🔑 AWS Secrets Manager
-* [ ] 🪣 S3 versioning
-* [ ] 🛡️ AWS WAF
-* [ ] 🏗️ Separate Terraform workspaces or environment directories
-
----
-
 # 🧪 Terraform Commands Cheat Sheet
 
 | Command                | Purpose                      |
@@ -910,26 +887,6 @@ Terraform
           ├── VPC
           ├── Security Groups
           └── Key Pairs
-```
-
----
-
-# 👨‍💻 Author
-
-### Atharva Dankhade
-
-**B.Tech — Computer Science & Engineering**
-
-Interested in:
-
-```text
-☁️ Cloud Computing
-🏗️ DevOps
-⚙️ Infrastructure as Code
-🐳 Docker
-☸️ Kubernetes
-🔗 Blockchain
-💻 Software Development
 ```
 
 ---
