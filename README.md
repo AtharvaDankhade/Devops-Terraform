@@ -674,39 +674,6 @@ With modules:
 
 ---
 
-# 🗂️ `.gitignore`
-
-Terraform generates several files that should not be committed to Git.
-
-Typical Terraform `.gitignore`:
-
-```gitignore
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-crash.log
-crash.*.log
-
-# Terraform variable files
-*.tfvars
-*.tfvars.json
-
-# Override files
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# Terraform lock file
-# Keep this file committed for provider version consistency.
-# .terraform.lock.hcl
-
-# Private SSH keys
-*.pem
-terra-key-ec2
-```
-
 ### Important
 
 Your repository should **normally commit**:
